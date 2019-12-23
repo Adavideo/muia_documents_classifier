@@ -34,7 +34,9 @@ It will create the files salud_clean.txt, politica_clean.txt and tecnologia_clea
 
 They are a copy of the original files, but cleaned up. It has the Spanish characters fixed, some lines eliminated, and puts a marker ("===") to delimitate the diferent texts examples that we'll use to separate it in diferent documets in the next step.
 
-	Note: Delete the first line in the new documents. It only contains "===" and if you leave it there the first document created on the next step will be empty. 
+	Note: Delete the first line in the new documents that contains "===".
+	It causes the first document created on the next step to be empty.
+	More info: https://github.com/Adavideo/muia_documents_classifier/issues/2
 
 
 3- Create a folder for each category: salud, politica and tecnologia
@@ -54,5 +56,7 @@ Create subfolders for each category in both folders.
 	Example: train_dataset/salud
 	
 
-6- Copy there the examples that you want to use to train and to test. It is important that this examples are in subfolders of the corresponding category.
+6- Copy there the examples that you want to use to train and to test. 
+
+It is important that this examples are in subfolders of the corresponding category.
  
