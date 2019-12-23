@@ -1,0 +1,7 @@
+
+Adobe trabaja en un sistema que garantice la autenticidad del contenido digital que los creadores comparten. 
+La iniciativa Autenticidad de Contenido tiene el propósito de trabajar en el desarrollo de estándares que permitan adoptar un sistema de atribución de contenido digital para determinar que lo que los autores y creadores comparten es auténtico. 
+"Con la proliferación del contenido digital, la gente quiere saber que el contenido que está viendo es auténtico", ha señalado el vicepresidente ejecutivo y consejero general de Adobe, Dana Rao. 
+En esta iniciativa conjunta de Adobe, Twitter y The New York Times Company nace con la creencia en que "crear una solución a largo plazo es una responsabilidad compartida entre creadores, tecnología y compañías mediáticas", como recoge el comunicado. 
+Adobe ya está trabajando en el desarrollo de un sistema que permitirá "adjuntar de forma segura datos de atribución al contenido" que los creadores y editores elijan compartir. La atribución contará con una verificación previa del contenido, lo que dará a los consumidores "un rastro de atribución para darles una mayor confianza sobre la autenticidad del contenido que consumen". 
+Esta incitativa se ha anunciado este jueves en el marco de Adobe MAX 2019, donde Adobe ha mostrado un prototipo de su tecnología de atribución de contenido integrada en Photoshop. 

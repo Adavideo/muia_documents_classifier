@@ -1,0 +1,11 @@
+
+Samsung extiende PlayGalaxy Link, su plataforma de videojuegos en 'streaming'. 
+Samsung ha anunciado la extensión de su plataforma de videojuegos 'streaming' PlayGalaxy Link, con la que se puede jugar a los videojuegos instalados en el ordenador desde el móvil, y que deja de ser una función exclusiva del Galaxy Note10 para llegar a otros móviles de la compañía. 
+PlayGalaxy Link permite al jugador conectar el teléfono con el ordenador, ya sea mediante una red WiFi o datos móviles, y continuar jugando a un videojuego justo donde lo dejó, desde cualquier parte. 
+La app está diseñada con una conexión Peer-to-Peer (P2P), que le "brinda simplicidad para un mejor rendimiento sin un servidor de retransmisión", según ha señalado Samsung en un comunicado. 
+La compañía surcoreana ya había anunciado la plataforma de videojuegos el pasado mes de abril, e hizo mención sobre ella de nuevo en la presentación del Galaxy Note 10 en agosto, donde informó de un acuerdo con Steam y el estudio Valve para el desarrollo del servicio. 
+La compañía ya lanzó la versión beta de PlayGalaxy Link y ahora está disponible en Corea del Sur, Estados Unidos, Reino Unido, Canadá, Italia, Países Bajos, Francia, Singapur y Rusia. 
+Además, Samsung ha informado que los dueños de los Galaxy Note10 ya no serán los únicos que podrán disfrutar de esta app, ya que la nueva actualización del software incluirá el acceso a PlayGalaxy Link para el Galaxy Fold, Galaxy S9, Galaxy Note9 y Galaxy A90 a principios de diciembre. 
+Samsung ha indicado que para utilizar PlayGalaxy Link no es necesario un almacenamiento local o rendimiento gráfico y que al utilizar el ordenador como fuente principal, se evita que el teléfono se caliente y caiga la velocidad. 
+Para utilizar la app primero hay que instalarla en el ordenador, que Samsung recomienda que cuente con un procesador Intel Core i5 o superior y más de 50GB de almacenamiento. Después hay que entrar con la cuenta de Samsung y la aplicación buscará juegos instalados en el ordenador, aunque también pueden añadirse manualmente. 
+El siguiente paso sería instalar PlayGalaxy Link en el teléfono y luego conectar el móvil con el ordenador. Por último hay que conectar el mando al teléfono. Samsung ha recalcado que el mando solo se puede comprar en Estados Unidos y Corea del Sur. 

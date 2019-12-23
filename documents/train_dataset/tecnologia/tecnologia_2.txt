@@ -1,0 +1,5 @@
+
+Gmail permite enviar correos electrónicos como archivos adjuntos dentro de otro email. 
+Google ha introducido novedades en su servicio de mensajería Gmail por las que permite adjuntar correos electrónicos dentro de un 'email' sin tener que descargarlos previamente. 
+Los usuarios de Gmail pueden introducir como archivos adjuntos otros emails de su bandeja de entrada con solo seleccionarlos y arrastrarlos al cuerpo del mensaje. También es posible desde el menú de tres puntos, donde aparece una la opción 'Reenviar como archivo adjunto', como informa la compañía en un comunicado. 
+Esta nueva funcionalidad ha empezado a desplegarse de forma gradual entre los usuarios de Gmail. Permite adjuntar tantos 'emails' como se quiera, que aparecerán como archivo .eml. Cuando el destinatario pinche sobre unos de estos correos adjuntados, se abrirá en una nueva ventana. 

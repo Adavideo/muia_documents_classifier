@@ -1,0 +1,6 @@
+
+Google Maps integra Google Traductor para preguntar por direcciones en otros idiomas. 
+Google Maps ha integrado Google Traductor, lo que dotará al servicio de mapas de una nueva función capaz de decir en voz alta el nombre y la dirección que busque el usuario en sus viajes al extranjero, cuando no conozca el idioma. 
+"Cuando estás en un país extranjero donde ni hablas el idioma ni sabes leerlo, moverse por sus calles puede resultar muy complicado, especialmente cuando necesitas preguntar a alguien", señalan desde Google. 
+Por ello, han integrado Traductor en Maps, para que diga en voz alta, y en el idioma del país, la dirección que se está buscando con solo pulsar el nuevo icono de altavoz. Además, si el usuario necesita mantener una conversación, Google Maps le llevará a la aplicación de Traductor. 
+Google incorporará la nueva función en Maps el próximo mes, cuando llegará a Android e iOS, con soporte para 50 idiomas, como ha informado en un comunicado. La compañía asegura que próximamente llegarán más opciones. 

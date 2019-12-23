@@ -1,0 +1,10 @@
+
+Así funcionan los nuevos mensajes de WhatsApp que se "autodestruyen". 
+WhatsApp lleva tiempo probando una nueva función que hará las delicias de más de uno. Con los años la aplicación propiedad de Facebook ha ido adquiriendo características propias de sus grandes competidoras, como los 'stories' de Instagram o la función típica de Snapchat que está implementando ahora: los mensajes que se "autodestruyen". 
+La compañía ha estado trabajando en esta "autodestrucción" de mensajes desde el pasado octubre, aunque no ha sido hasta ahora que ha empezado a dejarse ver. Concretamente, esta opción ha hecho su primera aparición en la versión beta 2.19.275 de WhatsApp. 
+Según ha avanzado la web WABetainfo, esta función de WhatsApp permite a los usuarios elegir el tiempo que desean que su mensaje aparezca en un chat. Una vez pasado el tiempo escogido, los mensajes desaparecerán sin dejar rastro. 
+Estos tiempos pueden variar desde una hora a un año, pasando por un día, una semana y un mes. Sin embargo, las primeras imágenes filtradas de la beta añadían otro lapso de tiempo: 5 segundos. Ahora habrá que esperar para ver qué tiempos terminarán siendo los oficiales. 
+Para activar a esta función. WhatsApp ha habilitado una opción en los ajustes de los chats, individuales o grupales, por lo que hay que seguir los siguientes pasos: 
+Hay que destacar que sólo los administradores de un grupo podrán cambiar esta opción en el chat 
+grupal. 
+Hace ya un par de años que WhatsApp comenzó a implementar la opción de borrar mensajes ya enviados escogiendo 'eliminar para mí' o 'eliminar para todos'. Pero esta opción dejaba un rastro en los chats ('este mensaje ha sido eliminado') que podía crear algún que otro malentendido. 
