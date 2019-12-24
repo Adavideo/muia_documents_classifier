@@ -9,8 +9,7 @@ import numpy as np
 
 def load_dataset(type):
     container_path = "documents/" + type + "_dataset"
-    dataset = load_files(container_path, description=None,
-        categories=None, load_content=True, shuffle=True, encoding="utf-8", decode_error='strict', random_state=0)
+    dataset = load_files(container_path, shuffle=True, encoding="utf-8")
     num_examples = len(dataset.data)
     print("Loaded " + type + " dataset with " + str(num_examples) + " examples")
     return dataset
