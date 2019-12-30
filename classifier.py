@@ -37,11 +37,8 @@ def svm_classifier(vectorizer):
                                 penalty='l2',alpha=1e-3, max_iter=20, random_state=42))])
     return classifier
 
-# Train a classifier with the training data
-def train_classifier(classifier, training_data):
-    return classifier.fit(training_data.data, training_data.target)
-
-def build_classifier(classifier_type, training_data, bigram):
+# Builds the type of classifier especified by the parameters
+def build_classifier(classifier_type, bigram):
     if bigram:
         print("Building bigram " + classifier_type + " classifier")
     else:
@@ -51,8 +48,24 @@ def build_classifier(classifier_type, training_data, bigram):
         classifier = naive_bayes_classifier(vectorizer)
     elif classifier_type == "SVM":
         classifier = svm_classifier(vectorizer)
-    classifier = train_classifier(classifier, training_data)
     return classifier
+
+def build_and_train_classifier(classifier_type, training_data, bigram):
+    classifier = build_classifier(classifier_type, bigram)
+    # Trains the classifier with the training data
+    classifier.fit(training_data.data, training_data.target)
+    return classifier
+
+def build_and_train_all_classifiers(training_data):
+    classifiers = {"Naive Bayes": [], "SVM": [] }
+    for classifier_type in classifiers:
+        # Building and training unigram classifier
+        unigram_classifier = build_and_train_classifier(classifier_type, training_data, bigram = False)
+        classifiers[classifier_type].append(unigram_classifier)
+        # Building and training bigram classifier
+        bigram_classifier = build_and_train_classifier(classifier_type, training_data, bigram = True)
+        classifiers[classifier_type].append(bigram_classifier)
+    return classifiers
 
 # Compare the predictions with the right categories and returns
 # if the prediction is correct or not, ordered by category
@@ -95,19 +108,13 @@ def show_results(performance, category_names):
         print(category_names[category])
         print(performance["by_category"][category])
 
-
 # Load the datasets
 training_data = load_dataset("train")
 test_data = load_dataset("test")
 category_names = test_data.target_names
 
 # Build and train the classifiers
-classifiers = {"Naive Bayes": [], "SVM": [] }
-for classifier_type in classifiers:
-    unigram_classifier = build_classifier(classifier_type,  training_data, bigram = False)
-    bigram_classifier = build_classifier(classifier_type,  training_data, bigram = True)
-    classifiers[classifier_type].append(unigram_classifier)
-    classifiers[classifier_type].append(bigram_classifier)
+classifiers = build_and_train_all_classifiers(training_data)
 
 # Test the classifiers and show the results
 for classifier_type in classifiers:
