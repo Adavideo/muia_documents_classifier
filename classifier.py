@@ -70,11 +70,11 @@ def test_classifier(classifier, test_data):
     performance["by_category"] = calculate_performance_by_category(predictions, test_data.target)
     return performance
 
-def show_results(performance):
+def show_results(performance, category_names):
     mean = str(performance["mean"])
     print("Mean performance: " + mean)
     for category in performance["by_category"]:
-        print("Category: " + str(category))
+        print(category_names[category])
         print(performance["by_category"][category])
 
 
@@ -91,8 +91,9 @@ nb_performance = test_classifier(nb_classifier, test_data)
 svm_performance = test_classifier(svm_classifier, test_data)
 
 # Show the results
+category_names = test_data.target_names
 print ("\nNaive Bayes results")
-show_results(nb_performance)
+show_results(nb_performance, category_names)
 print ("\nSVM results")
-show_results(svm_performance)
+show_results(svm_performance, category_names)
 print("\n")
