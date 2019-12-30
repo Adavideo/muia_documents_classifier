@@ -14,16 +14,24 @@ def load_dataset(type):
     print("Loaded " + type + " dataset with " + str(num_examples) + " examples")
     return dataset
 
+def build_vectorizer(bigram):
+    if bigram:
+        vectorizer = CountVectorizer(ngram_range=(1, 2))
+    else:
+        vectorizer = CountVectorizer()
+    return vectorizer
+
+
 # Builds the naive bayes classifier
-def naive_bayes_classifier():
-    classifier = Pipeline([('vectorizer', CountVectorizer()),
+def naive_bayes_classifier(vectorizer):
+    classifier = Pipeline([('vectorizer', vectorizer),
                                 ('transformer', TfidfTransformer()),
                                 ('nb_classifier', MultinomialNB())])
     return classifier
 
 # Builds the SVM classifier
-def svm_classifier():
-    classifier = Pipeline([('vectorizer', CountVectorizer()),
+def svm_classifier(vectorizer):
+    classifier = Pipeline([('vectorizer', vectorizer),
                             ('transformer', TfidfTransformer()),
                             ('svm_classifier', SGDClassifier(loss='hinge',
                                 penalty='l2',alpha=1e-3, max_iter=20, random_state=42))])
@@ -33,13 +41,14 @@ def svm_classifier():
 def train_classifier(classifier, training_data):
     return classifier.fit(training_data.data, training_data.target)
 
-def build_classifier(classifier_type, training_data):
+def build_classifier(classifier_type, training_data, bigram):
     print("Building " + classifier_type + " classifier")
+    vectorizer = build_vectorizer(bigram)
     if classifier_type == "Naive Bayes":
-        classifier = naive_bayes_classifier()
+        classifier = naive_bayes_classifier(vectorizer)
     elif classifier_type == "SVM":
-        classifier = svm_classifier()
-    classifier = train_classifier(classifier,training_data)
+        classifier = svm_classifier(vectorizer)
+    classifier = train_classifier(classifier, training_data)
     return classifier
 
 # Compare the predictions with the right categories and returns
@@ -81,19 +90,23 @@ def show_results(performance, category_names):
 # Load the datasets
 training_data = load_dataset("train")
 test_data = load_dataset("test")
+category_names = test_data.target_names
 
 # Build and train the classifiers
-nb_classifier = build_classifier("Naive Bayes",  training_data)
-svm_classifier = build_classifier("SVM",  training_data)
+classifiers = {"Naive Bayes": [], "SVM": [] }
+nb_classifier_unigram = build_classifier("Naive Bayes",  training_data, bigram = False)
+nb_classifier_bigram = build_classifier("Naive Bayes",  training_data, bigram = True)
+classifiers["Naive Bayes"].append(nb_classifier_unigram)
+classifiers["Naive Bayes"].append(nb_classifier_bigram)
+svm_classifier_unigram = build_classifier("SVM",  training_data, bigram = False)
+svm_classifier_bigram = build_classifier("SVM",  training_data, bigram = True)
+classifiers["SVM"].append(svm_classifier_unigram)
+classifiers["SVM"].append(svm_classifier_bigram)
 
 # Test the classifiers
-nb_performance = test_classifier(nb_classifier, test_data)
-svm_performance = test_classifier(svm_classifier, test_data)
-
-# Show the results
-category_names = test_data.target_names
-print ("\nNaive Bayes results")
-show_results(nb_performance, category_names)
-print ("\nSVM results")
-show_results(svm_performance, category_names)
-print("\n")
+for classifier_type in classifiers:
+    print(classifier_type)
+    for classifier in classifiers[classifier_type]:
+        performance = test_classifier(classifier, test_data)
+        show_results(performance, category_names)
+        print("\n")
