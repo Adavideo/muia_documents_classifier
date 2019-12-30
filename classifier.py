@@ -42,7 +42,10 @@ def train_classifier(classifier, training_data):
     return classifier.fit(training_data.data, training_data.target)
 
 def build_classifier(classifier_type, training_data, bigram):
-    print("Building " + classifier_type + " classifier")
+    if bigram:
+        print("Building bigram " + classifier_type + " classifier")
+    else:
+        print("Building unigram " + classifier_type + " classifier")
     vectorizer = build_vectorizer(bigram)
     if classifier_type == "Naive Bayes":
         classifier = naive_bayes_classifier(vectorizer)
@@ -79,6 +82,12 @@ def test_classifier(classifier, test_data):
     performance["by_category"] = calculate_performance_by_category(predictions, test_data.target)
     return performance
 
+def show_results_head(classifier_type, bigram):
+    if bigram:
+        print("\nBigram " + classifier_type + " results")
+    else:
+        print("\nUnigram " + classifier_type+ " results")
+
 def show_results(performance, category_names):
     mean = str(performance["mean"])
     print("Mean performance: " + mean)
@@ -100,10 +109,11 @@ for classifier_type in classifiers:
     classifiers[classifier_type].append(unigram_classifier)
     classifiers[classifier_type].append(bigram_classifier)
 
-# Test the classifiers
+# Test the classifiers and show the results
 for classifier_type in classifiers:
-    print(classifier_type)
+    counter = 0
     for classifier in classifiers[classifier_type]:
         performance = test_classifier(classifier, test_data)
+        show_results_head(classifier_type, counter==1)
         show_results(performance, category_names)
-        print("\n")
+        counter += 1
