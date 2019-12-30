@@ -94,14 +94,11 @@ category_names = test_data.target_names
 
 # Build and train the classifiers
 classifiers = {"Naive Bayes": [], "SVM": [] }
-nb_classifier_unigram = build_classifier("Naive Bayes",  training_data, bigram = False)
-nb_classifier_bigram = build_classifier("Naive Bayes",  training_data, bigram = True)
-classifiers["Naive Bayes"].append(nb_classifier_unigram)
-classifiers["Naive Bayes"].append(nb_classifier_bigram)
-svm_classifier_unigram = build_classifier("SVM",  training_data, bigram = False)
-svm_classifier_bigram = build_classifier("SVM",  training_data, bigram = True)
-classifiers["SVM"].append(svm_classifier_unigram)
-classifiers["SVM"].append(svm_classifier_bigram)
+for classifier_type in classifiers:
+    unigram_classifier = build_classifier(classifier_type,  training_data, bigram = False)
+    bigram_classifier = build_classifier(classifier_type,  training_data, bigram = True)
+    classifiers[classifier_type].append(unigram_classifier)
+    classifiers[classifier_type].append(bigram_classifier)
 
 # Test the classifiers
 for classifier_type in classifiers:
