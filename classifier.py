@@ -14,13 +14,20 @@ def load_dataset(type):
     print("Loaded " + type + " dataset with " + str(num_examples) + " examples")
     return dataset
 
-def build_vectorizer(bigram):
-    if bigram:
-        vectorizer = CountVectorizer(ngram_range=(1, 2))
-    else:
-        vectorizer = CountVectorizer()
-    return vectorizer
+def load_glossary():
+    glossary = []
+    glossary_file = open("documents/glossary/glossary_all.txt")
+    glossary = glossary_file.read().split("\n")
+    glossary_file.close
+    return glossary
 
+def build_vectorizer(bigram):
+    glossary = load_glossary()
+    if bigram:
+        vectorizer = CountVectorizer(vocabulary = glossary, ngram_range=(1, 2))
+    else:
+        vectorizer = CountVectorizer(vocabulary = glossary)
+    return vectorizer
 
 # Builds the naive bayes classifier
 def naive_bayes_classifier(vectorizer):
