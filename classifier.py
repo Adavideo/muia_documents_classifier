@@ -163,8 +163,9 @@ def show_results(performance, category_names):
     mean = str(performance["mean"])
     print("Mean performance: " + mean)
     for category in performance["by_category"]:
-        print(category_names[category])
-        print(performance["by_category"][category])
+        c = category_names[category]
+        p = str(performance["by_category"][category])
+        print(c + ": " + p)
 
 
 # MAIN FUNCTION
@@ -178,7 +179,9 @@ category_names = test_data.target_names
 with_glossary = config_glossary()
 
 # Build and train the classifiers
+print()
 classifiers = build_and_train_all_classifiers(training_data, with_glossary)
+print()
 
 # Test the classifiers and show the results
 for classifier_type in classifiers:
@@ -188,3 +191,5 @@ for classifier_type in classifiers:
         show_results_head(classifier_type, counter==1, with_glossary)
         show_results(performance, category_names)
         counter += 1
+
+print()
