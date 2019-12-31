@@ -1,8 +1,0 @@
-
-WhatsApp tomará acciones legales contra quienes abusen de la mensajería masiva. 
-La aplicación WhatsApp ha comunicado que desde este mes de diciembre emprenderá acciones legales contra aquellos usuarios que abusen de la mensajería masiva y automática en la aplicación. 
-WhatsApp ofrece un servicio de mensajería instantánea que permite a sus usuarios enviar el número de mensajes que quieran de forma gratuita. Existen varios casos en los que los usuarios quieren explotar al máximo este servicio y sacar beneficio de él a través de la distribución de links maliciosos o para promocionar su idea o negocio. 
-Para ello utilizan técnicas como la mensajería masiva, automática o el 'spam'. Estos métodos violan los términos de servicio de la 'app' y como anunció la compañía hace en su apartado de preguntas y respuestas, a partir del 7 de diciembre comenzaría a demandar a las personas que lleven a cabo estas prácticas. 
-Pero debido al encriptado de extremo a extremo, WhatsApp no tiene acceso a los contenidos enviados entre emisor y receptor. Sin embargo han encontrado otras formas de descubrir a estos usuarios. La compañía ha desarrollado sistemas avanzados de aprendizaje automático que se dedican a bloquear estas cuentas las 24 horas del día. 
-La detección se produce en los tres escenarios a los que se enfrenta la cuenta: el registro, mientras se envían mensajes y a través del 'feedback' que dan los usuarios al bloquear o reportar determinadas cuentas. 
-WhatsApp también encuentra a los usuarios que realizan estos abusos por medio de informaciones ajenas a la plataforma. La compañía ya ha detectado varios casos en los que el usuario ha publicitado que realiza este tipo de prácticas en alguna plataforma ajena a la 'app'. 

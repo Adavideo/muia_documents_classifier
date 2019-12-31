@@ -1,6 +1,0 @@
-
-Apple crea un sistema de llamadas grupales 'en estéreo' con auriculares. 
-Apple ha creado un nuevo sistema de llamadas telefónicas en grupo que emplea auriculares y que recoge la posición desde la que se encuentra el hablante para que el receptor pueda percibir desde qué posición de la sala proviene el sonido. 
-Según ha recogido Patently Apple, la compañía ha patentado este martes un total de 61 ideas en la Oficina de Patentes y Marcas de los Estados Unidos, entre las que destaca la idea de un sistema de llamadas con auriculares con "audio inteligente aumentado", como ha descrito la compañía en la patente. 
-El sistema de llamada es capaz de determinar la ubicación de la persona que llama desde una sala de conferencias para luego crear una sala virtual basada en el entorno en el que se encuentra el receptor de la llamada. 
-Una vez creada esta sala virtual, el sistema es capaz de hacer que la voz de quien llama parezca que proviene del lugar que ocuparía esa persona si estuviera presente. El objetivo de esta tecnología es hacer más fácil la identificación de la persona que está hablando durante una llamada telefónica grupal. 

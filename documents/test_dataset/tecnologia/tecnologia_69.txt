@@ -1,7 +1,0 @@
-
-Microsoft Security Essential seguirá actualizándose en Windows 7 después del final del soporte. 
-Windows ha anunciado que la aplicación antivirus de Windows 7, Microsoft Security Essential (MSE), seguirá funcionando y actualizándose para aquellos usuarios que sigan utilizando este sistema operativo una vez que finalice definitivamente su soporte el 14 de enero de 2020. 
-El soporte estándar de Windows 7 finalizó en el 2015, y desde entonces ha estado bajo el soporte extendido que solucionaba los 'bugs' o errores descubiertos. Sin embargo como anunció Microsoft hace unos meses, el 14 de enero de 2020 el sistema se quedará sin soporte oficial lo que le hará perder todas estas actualizaciones. 
-A raíz de una pregunta en el Foro de Microsoft, la compañía afirmó que el MSE seguirá funcionando una vez el sistema pierda el soporte oficial. Esto hará que reciba nuevas listas de firmas de amenazas en la base de datos para reconocer todo tipo de riesgos al analizar archivos potencialmente peligrosos. 
-Sin embargo, la compañía estadounidense ha asegurado que la plataforma de Microsoft Security Essential "ya no será actualizada". 
-A pesar de ello, este sistema seguirá siendo vulnerable en todos los demás aspectos tras el fin de su soporte definitivo por lo que es recomendable que los usuarios actualicen a nuevas versiones de Windows. 
