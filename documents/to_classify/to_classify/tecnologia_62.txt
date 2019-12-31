@@ -1,0 +1,9 @@
+
+La Universidad Europea adopta IBM Cloud para potenciar su campus virtual y lanzar nuevos servicios digitales. 
+La Universidad Europea adoptará infraestructura IBM Cloud for VMware Solutions para potenciar su campus virtual y crear nuevos servicios 'online' que refuercen su oferta educativa a través del uso de la tecnología más avanzada. 
+Hasta ahora la mayor parte de las cargas de trabajo informáticas de esta institución se optimizaban con el 'software' de virtualización VMware desde sus centros de datos tradicionales. Con el acuerdo alcanzado con IBM, el 90 por ciento de las cargas de trabajo de la Universidad se trasladarán y consolidarán en un único entorno privado en IBM Cloud. 
+Así, la Universidad contará con una infraestructura tecnológica capacitada para, por ejemplo, soportar mejor los picos de demanda en la época de matriculaciones, acelerar el lanzamiento de nuevas campañas de marketing para promocionar sus cursos u ofrecer innovadores servicios digitales a sus estudiantes. 
+Además, a través de su web se podrá realizar un mayor número de trámites administrativos, como matriculaciones, pagos, consulta de horarios y materiales, comunicaciones, entre otros, como recogen en un comunicado. 
+La arquitectura tecnológica de nube híbrida de IBM, que incluye, además, un servicio recuperación de datos ante contingencias, proporcionará más flexibilidad, eficiencia en costes y seguridad a la infraestructura tecnológica de la Universidad. 
+Esta estrategia permite a los clientes de IBM "innovar continuamente y proporcionar la experiencia digital que los nativos digitales están demandando", expresa el vicepresidente, IBM Cloud, España, Portugal, Grecia e Israel, Javier Valencia. 
+Por otro lado, la Universidad Europea acaba de inaugurar la escuela Business & Tech con IBM, dirigida a enseñar a los estudiantes el impacto que la tecnología tiene en la transformación de los negocios. 

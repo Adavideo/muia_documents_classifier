@@ -1,0 +1,10 @@
+
+Microsoft y el CCN se unen para acercar Office 365 y Azure al Esquema Nacional de Seguridad. 
+Microsoft ha colaborado con el Centro Criptológico Nacional (CCN-CERT) y ha publicado las guías técnicas de configuración para el despliegue de Office 365 y Azure para ayudar al cumplimiento del Esquema Nacional de Seguridad por parte de las administraciones públicas. 
+La compañía estadounidense publicará un total de ocho guías de sus servicios en la nube, entre los que además de Office 365 y Azure, ya disponibles en la web del CCN, se encuentran también Microsoft Teams, Cognitive Services, Exchange Online, SharePoint Online, Kubernetes y Azure SQL, 
+como ha explicado Microsoft en un comunicado. 
+Las nuevas guías técnicas y 'scripts' de automatización de las configuraciones de seguridad desarrolladas por Microsoft para sus servicios en la nube cumplen con el nivel más alto del Esquema Nacional de Seguridad diseñado por el CCN para las instituciones públicas y su personal de TI. 
+El acceso público a estas herramientas permite que sean utilizadas tanto por el sector público como también por empresas privadas que demanden estas certificaciones. 
+Las guías y automatismos presentados por Microsoft y el Centro Criptológico se dirigen a facilitar y guiar con garantías el cumplimiento de las responsabilidades de los administradores de los servicios cloud en un modelo de responsabilidad compartida. 
+"Acompañar y guiar técnicamente a los usuarios en el cumplimiento de sus obligaciones regulatorias en materia de seguridad, en un modelo cloud de responsabilidad compartida, ha sido una demanda frecuente hacia Microsoft por parte de muchas Administraciones", ha asegurado el director de Tecnología de Microsoft en España, Héctor Sánchez Montenegro. 
+Sánchez Montenegro ha destacado también el carácter "único" de la autoría conjunta de Microsoft el CCN, algo que asegura que "no tiene precedentes". 

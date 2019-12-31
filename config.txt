@@ -1,4 +1,7 @@
 documents/train_dataset
 documents/test_dataset
 documents/glossary/glossary_all.txt
-True
+False
+documents/to_classify/
+documents/classified/
+/

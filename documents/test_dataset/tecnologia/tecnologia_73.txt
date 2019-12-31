@@ -1,0 +1,10 @@
+
+Google utiliza el aprendizaje automático para reorganizar las 'Noticias destacadas' en su buscador. 
+Google ha aplicado tecnología de aprendizaje automático para cambiar la forma en que muestra las 'noticias destacadas' en la versión móvil de su buscador, con el objetivo de simplificar la forma en que se despliegan los temas para que el usuario pueda entenderlos mejor. 
+Al realizar una búsqueda sobre un tema particular, como el último descubrimiento científico, el usuario encuentra en el buscador una o dos noticias principales y debajo de ellas, el apartado de 
+'Noticias destacadas', que ofrece un carrusel con las noticias más relevantes sobre el tema. 
+A veces, el usuario se encuentra con que hay múltiples historias relacionadas con su búsqueda. Por ello, y para comprender mejor "qué es lo más relevante", Google ha reorganizado los resultados por historias, como informa en un comunicado. 
+Esta nueva estructura muestra cada historia -una debajo de otra en la navegación por los resultados-, con un carrusel de noticias propio. 
+Para ello, la compañía ha empleado diversas tecnologías de aprendizaje automático para "examinar los artículos relacionados y determinar dónde acaba una historia y comienza otra", explican desde la compañía. 
+Además, con la nueva estructura, Google ofrece en el carrusel de las noticias destacadas información clave, como citas y artículos de opinión. 
+Este cambio en la búsquedas está enfocado a la versión móvil del buscador. Google ha informado de que ha empezado este miércoles su despliegue, primero en inglés en Estados Unidos. En los próximos meses estará disponible en más idiomas y en más países. 

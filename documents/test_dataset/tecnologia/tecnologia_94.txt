@@ -1,0 +1,7 @@
+
+Una compañía de EEUU expone decenas de millones de mensajes SMS. 
+La compañía de ciberseguridad vpnMentor ha descubierto una base de datos que contiene decenas de millones de mensajes SMS, en su mayoría de usuarios estadounidense, procedentes de la empresa de comunicaciones de Estados Unidos TrueDialog. 
+La base de datos de SMS ha expuesto "una enorme cantidad de información personal", entre las que además de mensajes de texto personales se encontraban números de teléfono, nombres de usuario, contraseñas e información de documentos de identificación, según ha alertado vpnMentor en su blog. 
+Los mensajes proceden de TrueDialog, una empresa de comunicaciones estadounidense que presta sus servicios desde hace más de diez años. Los SMS se filtraron a causa de que su base de datos no había sido protegida correctamente, según la compañía de ciberseguridad. 
+La base de datos de la empresa de comunicaciones había resultado directamente comprometida, de manera que resultaba posible acceder a millones de direcciones de correo electrónico, nombres de usuario y contraseñas en texto llano o encriptadas. 
+Estos datos formaban parte de una base de datos accesible de 604 GB de información que resultó accesible hasta el pasado 29 de noviembre, un día después de que TrueDialog fuese informada del error. 

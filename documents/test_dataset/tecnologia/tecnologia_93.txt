@@ -1,0 +1,8 @@
+
+Microsoft soluciona una vulnerabilidad en la identificación de sus cuentas. 
+Microsoft ha parcheado una vulnerabilidad descubierta por la firma de ciberseguridad CyberArk que se encontraba en el mecanismo de identificación de sus cuentas y que permitía que los atacantes robaran sus credenciales de acceso. 
+El fallo de seguridad en las cuentas de Microsoft exponía los 'tokens' de inicio de sesión, un elemento utilizado por los servicios en línea que permite recordar la contraseña de los usuarios sin que estos tengan que introducirla todo el tiempo, así​como mantener la cuenta abierta dentro de aplicaciones de terceros. 
+Mediante el uso de los 'tokens' robados, los cibercriminales podían utilizar esta información para engañar a los usuarios para obtener sus credenciales de acceso, según la investigación de CyberArk, cuyos resultados han sido publicados por TechCrunch. 
+Además, el error permitía el robo de datos sin que el usuario lo advirtiera. La investigación detectó docenas de subdominios sin registrar conectados a aplicaciones nativas de Microsoft que podían generar 'tokens' sin necesidad de implicación del usuario. 
+Con todos estos datos, los cibercriminales solamente necesitaban que la víctima hiciese clic en un enlace malicioso emplazado en una web para robar sus credenciales, sin necesidad de que el usuario llegara a escribir sus claves. 
+Actualmente, Microsoft ha parcheado esta vulnerabilidad después de que la compañía le informase de la misma el mes de octubre, y Microsoft ha retirado los subdominios maliciosos. 

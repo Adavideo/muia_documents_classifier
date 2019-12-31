@@ -1,0 +1,15 @@
+
+Adobe lanza Photoshop en iPad y presenta la 'app' de cámara Photoshop para editar desde la cámara del móvil. 
+Adobe ha presentado este lunes su nueva aplicación Photoshop Camera para móviles, que permite llevar a cabo funciones de su 'software' de edición Photoshop directamente desde la cámara del móvil a través de Inteligencia Artificial (IA), y también ha lanzado por primera vez Photoshop para las tabletas iPad. 
+La compañía estadounidense ha anunciado las novedades del año sobre Creative Cloud, en el marco de la conferencia de creatividad y diseño Adobe MAX 2019, celebrada en Los Angeles (Estados Unidos), donde ha destacado especialmente la posibilidad de crear en distintas plataformas, como explica en un comunicado. 
+El programa de edición Photoshop ha hecho su llegada a iPad, donde ya está disponible para los 
+clientes del 'software'. Esta versión, desarrollada específicamente para tablets, ofrece compatibilidad con archivos PSD, una interfaz de usuario táctil, acceso a documentos en la nube y la posibilidad de trabajar con diseños multicapa. 
+Asimismo, Adobe ha ofrecido en MAX 2019 también una vista previa de la aplicación de Adobe Illustrator en iPad, con control táctil y acceso a Adobe Stock, Fonts y todas las bibliotecas de Creative Cloud. Estará disponible en 2020 y ya se encuentra en fase beta. 
+Lanzado para iPad a principios de este otoño, Adobe Fresco ya está disponible en Windows, empezando por los dispositivos Microsoft Surface Pro X. Esta 'app' de dibujo y pintura combina trazos, vectores y los nuevos pinceles vivos y, con la tecnología Sensei, la acuarela y el óleo de los Pinceles Vivos se mezclan e interactúan. 
+Fresco ya está disponible por un precio que parte de los 10,99 euros de forma individual, así​como en una versión 'freemium'. Se incluye también en los planes de Creative Cloud. 
+CAMARA DE PHOTOSHOP, EN 2020. 
+Entre las principales novedades presentadas en el evento destaca Adobe Photoshop Camera, una nueva aplicación móvil que lleva las funciones de Photoshop directamente hasta el momento de tomar la fotografía. 
+Se trata de una aplicación de cámara inteligente, que aplica Photoshop Magic a cualquier foto, y utiliza la Inteligencia Artificial de Adobe Sensei para mejorar automáticamente la calidad de las fotos. 
+Photoshop Camera, que ya está disponible en su versión previa y que llegará a iOS y Android en 2020, incluirá una biblioteca de lentes y efectos de artistas e influencers, incluyendo a la cantante Billie Eilish. 
+Entre el resto de novedades se encuentra un nuevo diseño del escritorio de Creative Cloud Desktop, nuevas librerías de Creative Cloud que ahora están ahora totalmente integradas con XD, o la coedición en vivo e historial de documentos en Adobe XD, que permite que varios usuarios trabajen en un documento al mismo tiempo. 
+Por último, la compañía ha lanzado Adobe Aero, que permite a los usuarios crear experiencias de realidad aumentada aprovechando herramientas como Photoshop y Dimension para producir creaciones que aparecen en un entorno tridimensional inmersivo. Adobe Aero está disponible como una aplicación gratuita de iOS. 
