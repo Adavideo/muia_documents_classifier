@@ -1,4 +1,4 @@
 documents/train_dataset
 documents/test_dataset
 documents/glossary/glossary_all.txt
-True
+False

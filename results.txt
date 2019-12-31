@@ -1,0 +1,56 @@
+Loaded train dataset with 120 examples
+Loaded test dataset with 88 examples
+With glossary: True
+
+Building classifier: SVM with glossary
+Building classifier: Naive Bayes with glossary
+
+
+Results for SVM with glossary classifier
+Mean performance: 0.9090909090909091
+politica: 0.9393939393939394
+salud: 0.8571428571428571
+tecnologia: 0.9259259259259259
+
+Results for Naive Bayes with glossary classifier
+Mean performance: 0.9090909090909091
+politica: 0.9393939393939394
+salud: 0.8571428571428571
+tecnologia: 0.9259259259259259
+
+----
+
+Loaded train dataset with 120 examples
+Loaded test dataset with 88 examples
+With glossary: False
+
+Building classifier: unigram Naive Bayes without glossary
+Building classifier: bigram Naive Bayes without glossary
+Building classifier: unigram SVM without glossary
+Building classifier: bigram SVM without glossary
+
+
+Results for unigram Naive Bayes without glossary classifier
+Mean performance: 0.9204545454545454
+politica: 0.9696969696969697
+salud: 0.8571428571428571
+tecnologia: 0.9259259259259259
+
+Results for bigram Naive Bayes without glossary classifier
+Mean performance: 0.9204545454545454
+politica: 0.9696969696969697
+salud: 0.8571428571428571
+tecnologia: 0.9259259259259259
+
+Results for unigram SVM without glossary classifier
+Mean performance: 0.9431818181818182
+politica: 0.9696969696969697
+salud: 0.8928571428571429
+tecnologia: 0.9629629629629629
+
+Results for bigram SVM without glossary classifier
+Mean performance: 0.9204545454545454
+politica: 0.9393939393939394
+salud: 0.8571428571428571
+tecnologia: 0.9629629629629629
+
