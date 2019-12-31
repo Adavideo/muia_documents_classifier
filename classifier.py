@@ -7,16 +7,26 @@ from sklearn.pipeline import Pipeline
 from sklearn.datasets import load_files
 import numpy as np
 
+def config_path(parameter):
+    config_file = open("config.txt")
+    config_data = config_file.read().split("\n")
+    if parameter == "train":
+        return config_data[0]
+    elif parameter == "test":
+        return config_data[1]
+    elif parameter == "glossary":
+        return config_data[2]
+
 def load_dataset(type):
-    container_path = "documents/" + type + "_dataset"
+    container_path = config_path(type)
     dataset = load_files(container_path, shuffle=True, encoding="utf-8")
     num_examples = len(dataset.data)
     print("Loaded " + type + " dataset with " + str(num_examples) + " examples")
     return dataset
 
 def load_glossary():
-    glossary = []
-    glossary_file = open("documents/glossary/glossary_all.txt")
+    glossary_path = config_path("glossary")
+    glossary_file = open(glossary_path)
     glossary = glossary_file.read().split("\n")
     glossary_file.close
     return glossary
