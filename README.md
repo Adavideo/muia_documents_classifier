@@ -7,14 +7,14 @@ To execute:
 
 Config file:
 
-	Some parameters can be configured editing the file config.txt
+Some parameters can be configured editing the file config.txt
 
 	1st line: path for the training dataset.
 	2nd line: path for the test dataset.
 	3rd line: path of the glossary file.
 	4th line: True to use the glossary, False to don't use it.
 
-	The paths are by default writen for linux. They should be edited before executing the program in a diferent operating system.
+The paths are by default writen for linux. They should be edited before executing the program in a diferent operating system.
 
 
 ---
