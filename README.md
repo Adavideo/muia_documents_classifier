@@ -1,9 +1,26 @@
 # Documents Classifier
 A documents classifier made for the class of Ingeniería Lingüística in the Master of Artificial Intelligence of Universidad Politécnica de Madrid (UPM)
 
+There is two classifiers. 
+
+Classifier 1: 
+
+Trains differents classifiers and performs tests with the testing dataset to see the performance.
+
 To execute:
 
-	python3 classifier.py
+	python3 classifier1.py
+
+
+Classifier 2:
+
+Takes the files to classify from the folder especified in the config file (more information below), and orders them on another folder (also especified in the config file) into the predicted category. 
+Note: It does not erase the files from the original folder, just makes copies of them. 
+
+To execute:
+
+	python3 classifier2.py
+
 
 Config file:
 
@@ -13,6 +30,9 @@ Some parameters can be configured editing the file config.txt
 	2nd line: path for the test dataset.
 	3rd line: path of the glossary file.
 	4th line: True to use the glossary, False to don't use it.
+	5th line: path for the files to classify in the second classifier
+	6th line: path for the folder to put the classified documents
+	7th line: character that separate folders on paths. "/" or "\" depending on the operating system.
 
 The paths are by default writen for linux. They should be edited before executing the program in a diferent operating system.
 
